@@ -16,7 +16,7 @@ string coolString = "Hello, World!";
 coolString = "Goodbye, World!";
 
 // We can concatenate strings
-string firstName = "John"; 
+string firstName = "John";
 string lastName = "Doe";
 string fullName = firstName + " " + lastName; // "John Doe"
 
@@ -30,7 +30,7 @@ myString = Console.ReadLine(); // User input will be stored in myString
 Console.WriteLine(myString.Length);
 
 // Get individual characters using index
-Console.WriteLine(myString[0]); 
+Console.WriteLine(myString[0]);
 
 Console.WriteLine(myString); // Output the user input
 
@@ -60,7 +60,7 @@ myInt = newInt; // myInt now equals 10
 int sum = 5 + 10;
 int difference = 10 - 5;
 int product = 5 * 10;
-int quotient = 5/10; //Note: This will result in 0 because both are integers and it performs integer division
+int quotient = 5 / 10; //Note: This will result in 0 because both are integers and it performs integer division
 
 Console.WriteLine(sum); // Output: 15   
 Console.WriteLine(difference); // Output: 5
@@ -90,7 +90,7 @@ myDouble = 20.5; // Reassigning a new value to myDouble
 // We can do math with floats and doubles   
 float sumFloat = 5.5f + 10.5f;
 float differenceFloat = 10.5f - 5.5f;
-float productFloat = 5.5f * 10.5f;  
+float productFloat = 5.5f * 10.5f;
 float quotientFloat = 5.5f / 10.5f; // Note: This will result in a float value  
 
 // Results of our float operations
